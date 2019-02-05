@@ -1,0 +1,31 @@
+// Use the gear_dropdown.png screenshot as a style guide
+
+.gear-dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10px;
+  background: white; 
+  top: 30px;
+  border: 1px solid $light-gray;
+  padding: 10px;
+  color: $gray;
+  width: 220px;
+  align-items: flex-start;
+}
+
+.editions span {
+  text-transform: capitalize;
+}
+.editions  a{
+  text-transform: uppercase;
+}
+.editions  li:hover{
+  a {
+    color: $dark-gray;
+    background: $gray;
+  }
+  
+  
+}
+

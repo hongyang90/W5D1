@@ -1,0 +1,28 @@
+.section-nav ul {
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+.section-nav li {
+  padding: 10px;
+
+}
+
+.section-nav li:hover {
+  padding: 10px;
+  text-decoration: none;
+}
+.section-nav a:hover {
+  background: $light-gray;
+}
+
+.section-nav li:last-child:hover {
+  padding: 10px;
+  text-decoration: underline;
+  a:hover {
+    background: none;
+    text-transform: uppercase;
+  }
+}
